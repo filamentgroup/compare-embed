@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>Inline an SVG file in HTML, declaratively & asynchronously!</title>
+  <style>
+    body {font-family: sans-serif; margin: 50px 10vw; max-width: 60em;}
+    pre { border: 1px solid #aaa; background: #eee; padding: 1em; line-height: 1.4; white-space: pre-wrap; word-wrap: break-word;}
+    iframe { border: 0; }
+  </style>
+</head>
+<body>
+  <h1>Test page for <a href="https://www.filamentgroup.com/lab/html-includes/">HTML Includes that Work Today</a></h1>
+  <p>An experiment by <a href="https://scottjehl.com">Scott Jehl</a> of <a href="https://www.filamentgroup.com">Filament Group</a></p>
+  
+  <p>Iframes Test</p>
+   
+
+  <div>
+    <iframe src="signal.svg" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>  
+  </div>
+  <div>
+    <iframe src="signal.svg" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>  
+  </div>
+  <div>
+    <iframe src="signal.svg" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>  
+  </div>
+  <div>
+    <iframe src="signal.svg" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>  
+  </div>
+  <div>
+    <iframe src="signal.svg" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>  
+  </div>
+  <div>
+    <iframe src="signal.svg" onload="this.before((this.contentDocument.body || this.contentDocument).children[0]);this.remove()"></iframe>  
+  </div>  
+</body>
+</html>
